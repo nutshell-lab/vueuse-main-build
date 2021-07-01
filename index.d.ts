@@ -3,7 +3,7 @@ import { Fn, MaybeRef, ConfigurableEventFilter, ConfigurableFlush, EventHookOn, 
 export * from '@vueuse/shared';
 import * as vue_demi from 'vue-demi';
 import { Ref, defineComponent, ToRefs, ComputedRef } from 'vue-demi';
-import * as vue from 'vue-demi';
+import * as vue from 'vue';
 
 /**
  * Handle overlapping async evaluations.
